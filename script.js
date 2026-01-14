@@ -64,12 +64,14 @@ switch4.addEventListener('change', change29);
 //
 const switch5 = document.querySelector("#switch5");
 
-const change5 = () => {
+const change57 = () => {
     const light5 = document.querySelector("#lightbulb5");
+    const light7 = document.querySelector("#lightbulb7");
     light5.classList.toggle("active");
+    light7.classList.toggle("active");
 }
 
-switch5.addEventListener('change', change5);
+switch5.addEventListener('change', change57);
 
 
 
