@@ -1,6 +1,60 @@
 // YOUR CODE HERE
 console.log("Script Running.");
 
+//
+const switchAll = document.querySelector("#switchAll");
+
+const changeAll = () => {
+    const light1 = document.querySelector("#lightbulb1");
+    const light2 = document.querySelector("#lightbulb2");
+    const light3 = document.querySelector("#lightbulb3");
+    const light4 = document.querySelector("#lightbulb4");
+    const light5 = document.querySelector("#lightbulb5");
+    const light6 = document.querySelector("#lightbulb6");
+    const light7 = document.querySelector("#lightbulb7");
+    const light8 = document.querySelector("#lightbulb8");
+    const light9 = document.querySelector("#lightbulb9");
+    light1.classList.toggle("active");
+    light2.classList.toggle("active");
+    light3.classList.toggle("active");
+    light4.classList.toggle("active");
+    light5.classList.toggle("active");
+    light6.classList.toggle("active");
+    light7.classList.toggle("active");
+    light8.classList.toggle("active");
+    light9.classList.toggle("active");
+}
+
+switchAll.addEventListener('change', changeAll);
+
+
+
+//
+const restartAll = document.querySelector("#restart");
+
+const restart = () => {
+    const light1 = document.querySelector("#lightbulb1");
+    const light2 = document.querySelector("#lightbulb2");
+    const light3 = document.querySelector("#lightbulb3");
+    const light4 = document.querySelector("#lightbulb4");
+    const light5 = document.querySelector("#lightbulb5");
+    const light6 = document.querySelector("#lightbulb6");
+    const light7 = document.querySelector("#lightbulb7");
+    const light8 = document.querySelector("#lightbulb8");
+    const light9 = document.querySelector("#lightbulb9");
+    light1.classList.remove("active");
+    light2.classList.remove("active");
+    light3.classList.remove("active");
+    light4.classList.remove("active");
+    light5.classList.remove("active");
+    light6.classList.remove("active");
+    light7.classList.remove("active");
+    light8.classList.remove("active");
+    light9.classList.remove("active");
+}
+
+restartAll.addEventListener('change', restart);
+
 
 //
 const switch1 = document.querySelector("#switch1");
