@@ -51,6 +51,15 @@ const restart = () => {
     light7.classList.remove("active");
     light8.classList.remove("active");
     light9.classList.remove("active");
+    switch1.checked = false;
+    switch2.checked = false;
+    switch3.checked = false;
+    switch4.checked = false;
+    switch5.checked = false;
+    switch6.checked = false;
+    switch7.checked = false;
+    switch8.checked = false;
+    switch9.checked = false;
 }
 
 restartAll.addEventListener('change', restart);
